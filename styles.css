@@ -1,0 +1,5 @@
+:root{--max-width:900px}
+body{font-family:system-ui,Segoe UI,Roboto,Arial;margin:0;padding:20px;background:#f7f7f7}
+.container{max-width:var(--max-width);margin:0 auto;background:#fff;padding:20px;border-radius:8px}
+header h1{margin:0 0 12px}
+#filesList img{max-width:150px;margin:8px}

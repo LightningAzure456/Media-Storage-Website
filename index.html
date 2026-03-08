@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Storage Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header><h1>Storage Dashboard</h1></header>
+
+    <section id="auth">
+      <input id="email" type="email" placeholder="Email" />
+      <input id="password" type="password" placeholder="Password" />
+      <button id="btnSignUp">Sign Up</button>
+      <button id="btnSignIn">Sign In</button>
+      <button id="btnSignOut" hidden>Sign Out</button>
+    </section>
+
+    <section id="uploader" hidden>
+      <h2>Your Files</h2>
+      <input id="fileInput" type="file" accept="image/*,video/*" multiple />
+      <button id="btnUpload">Upload</button>
+      <div id="filesList"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
