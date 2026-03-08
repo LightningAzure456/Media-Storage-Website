@@ -1,0 +1,26 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Local env
+.env
+
+# Build / output
+dist/
+build/
+public/.cache
+
+# Uploads and runtime files
+uploads/
+tmp/
+*.sqlite
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
